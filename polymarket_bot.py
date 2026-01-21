@@ -650,8 +650,8 @@ class MarketScanner:
     BASE_URL = "https://clob.polymarket.com"
     
     def __init__(self, api_key: str, private_key: str):
-        self.api_key = api_key
-        self.private_key = private_key
+        self.api_key = '019bdf57-30f0-763f-8e4b-f35d3e7778e7'
+        self.private_key = 'RpY6Gx5uuLA18mA9WKUq6gauULTRzbxVzInqxWW5hKM='
         self.session: Optional[aiohttp.ClientSession] = None
         
     async def __aenter__(self):
